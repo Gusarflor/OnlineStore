@@ -1,0 +1,10 @@
+
+
+<app-valor mensaje="Total a pagar: " [valor]="valor"></app-valor>
+
+  <app-item
+      *ngFor="let item of catalogo"
+      [item]="item"
+      (deleteProducto)="deleteProducto($event)"
+      (toggleProducto)="toggleProducto($event)">
+  <app-item>

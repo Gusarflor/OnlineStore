@@ -1,0 +1,26 @@
+h3{
+  color: orangered;
+}
+
+form{
+  margin: 0 auto;
+  width: 400px;
+  display: block;
+}
+
+form div{
+  padding: 5px 0;
+}
+
+form label{
+  display: block;
+  padding: 10px 0;
+  color: orangered;
+}
+
+form input [type=text]{
+  width: 100%;
+  padding: 5px;
+}
+
+
