@@ -1,0 +1,36 @@
+
+h1{
+  text-align: center;
+  background-color: green;
+  color: rgb(255, 230, 0);
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+ul{
+  list-style-type: none;
+  background-color: rgba(46, 131, 4, 0.984);
+  overflow: hidden;
+  margin: 20px;
+  padding: 10px;
+}
+
+li a{
+  float: left;
+  display: flex;
+  color:  gold;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  background-color: olivedrab;
+}
+
+nav a{
+  float: right;
+}
